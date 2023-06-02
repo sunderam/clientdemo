@@ -8,6 +8,6 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String status() {
-		return "Client service is up and runinig ...";
+		return "Client service is up and runinig docker...";
 	}
 }
